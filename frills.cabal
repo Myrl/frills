@@ -1,0 +1,16 @@
+Name:                frills
+Version:             0.1.0
+Synopsis:            Frills Framework
+Category:            System
+Author:              Myrl Hex
+Maintainer:          myrl.0xf@gmail.com
+Cabal-version:       >= 1.2
+Build-type:          Simple
+
+Library
+    hs-source-dirs:  lib
+    exposed-modules: Control.Wire.Frills
+    Build-depends:   base
+                   , free
+                   , wires
+                   , sdl2
